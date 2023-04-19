@@ -1,6 +1,6 @@
 <script setup>
-import LeftPanel from '@/components/LeftPanel.vue';
-import RightPanel from '@/components/RightPanel.vue';
+import LeftPanel from '@/components/LeftPanel';
+import RightPanel from '@/components/RightPanel';
 </script>
 
 <template>
