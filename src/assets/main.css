@@ -39,4 +39,5 @@ html, body, #app {
   justify-content: center;
   gap: 32px;
   flex-grow: 1;
+  font-size: 18px;
 }

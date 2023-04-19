@@ -1,15 +1,16 @@
-<template>
-    <div class="panel">
-        <h2>Right Panel</h2>
-        <div class="panel-body">
-        </div>
-    </div>
-</template>
+<script setup>
+import { ref } from 'vue'
 
-<script>
+const inputText = ref('')
 
 </script>
 
-<style scoped>
-
-</style>
+<template>
+    <div class="panel">
+        <h1>Right Panel</h1>
+        <div class="panel-body">
+            <p>This is a different component.</p>
+            <p>Your input: {{ inputText }}</p>
+        </div>
+    </div>
+</template>
