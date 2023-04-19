@@ -21,6 +21,7 @@ export function useValidator(value) {
     }
     
     if (isRef(value)) {
+        console.log('isRef')
         watchEffect(() => {
             validate(unref(value))
         })

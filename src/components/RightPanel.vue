@@ -1,8 +1,7 @@
 <script setup>
-import { ref } from 'vue'
+import { useInputStore } from '@/stores/input'
 
-const inputText = ref('')
-
+const inputStore = useInputStore()
 </script>
 
 <template>
@@ -10,7 +9,7 @@ const inputText = ref('')
         <h1>Right Panel</h1>
         <div class="panel-body">
             <p>This is a different component.</p>
-            <p>Your input: {{ inputText }}</p>
+            <p>Your input: {{ inputStore.inputText }}</p>
         </div>
     </div>
 </template>
